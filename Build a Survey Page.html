@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" href="./css/survey.css">
+<main id="main">
+    <head id="header">
+    <h1 id="title" class="text-center"> Marcelo's Satisfaction Survey</h1>
+     <p id="description"class="text-center">Thank you for filling out the satisfaction survey</p>
+    </head>
+    <body id="body">
+        <form id="survey-form">
+            <div class="form-entry">
+                <label id="name-label" for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-input"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-entry">
+                <label id="email-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="form-entry">
+                <label id="number-label" for="number">How many years in the industry</label>
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  class="form-input"
+                  placeholder="Enter how many years in the industry"
+                  required
+                  min="0"
+                  max="50"
+                />
+              </div>
+        </form>
+  
+    </body>
+    <footer>
+        <h4> Marcelo's Copyright 2020</h4>
+    </footer>
+</main>
