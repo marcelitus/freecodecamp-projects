@@ -42,6 +42,107 @@
                   max="50"
                 />
               </div>
+              <div class="form-dropdown">
+                <p> How would you describe the experience of working with me?</p>
+                <select id="dropdown" name="experience" class="form-dropdown-options">
+                  <option disabled selected value>Select what best descibes the experience</option>
+                  <option value="10">Excelent</option>
+                  <option value="7">Great</option>
+                  <option value="5">Normal</option>  
+                  <option value="3">Bad</option>
+                  <option value="1">Worst Ever</option>
+                </select>
+              </div>
+              <div class="form-dropdown">
+                <p> How would you describe the pricing of services?</p>
+                <select id="dropdown" name="price" class="form-dropdown-options">
+                  <option disabled selected value>Select what best descibes your opinion about pricing</option>
+                  <option value="10">Too Expensive</option>
+                  <option value="7">Fairly Priced</option>
+                  <option value="5">Normal</option>  
+                  <option value="3">Inexpensive</option>
+                  <option value="1">Dirt Cheap</option>
+                </select>
+              </div>
+              <div class="form-radio">
+                <p>Would you recommend my professional services to a friend?</p>
+                <label>
+                  <input
+                    name="professional-service"
+                    value="For sure"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                  />For Sure</label>
+                  <label>
+                    <input
+                      name="professional-service"
+                      value="needtothink"
+                      type="radio"
+                      class="input-radio"
+                    />I need to think about it</label>  
+                    <label>
+                      <input
+                        name="professional-service"
+                        value="needtothink"
+                        type="radio"
+                        class="input-radio"
+                      />No way Jose</label>  
+
+              </div>
+              <div class="form-check">
+              <p>What other services could I offer? (Check all that apply)</p>
+              <label>
+                <input
+                  name="otherservice"
+                  value="webdesign"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Web Design</label>
+                <label>
+                  <input
+                    name="otherservice"
+                    value="DBAdmin"
+                    type="checkbox"
+                    class="input-checkbox"
+                  />DBA Administration</label>
+                  <label>
+                    <input
+                      name="otherservice"
+                      value="spadmin"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />SharePoint Administration</label>
+                    <label>
+                      <input
+                        name="otherservice"
+                        value="back-end-development"
+                        type="checkbox"
+                        class="input-checkbox"
+                      />Back-End Development</label>
+                      <label>
+                        <input
+                          name="otherservice"
+                          value="front-end-development"
+                          type="checkbox"
+                          class="input-checkbox"
+                        />Front-End Development</label>
+      
+          </div>
+          <div class="form-textarea">
+            <p> Please enter any additional comments in the area below</p> 
+            <textarea
+              id="textcomment"
+              name="comment"
+              placeholder="Enter comment here"
+              class="textarea"
+
+            ></textarea>  
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-btn">
+                Submit
+              </button>
+            </div>
         </form>
   
     </body>
